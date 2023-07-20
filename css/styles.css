@@ -892,6 +892,7 @@ margin-bottom: 16px;
 
 .footer-email {
     display: flex;
+    gap: 24px;
 }
 
 .footer-label {
@@ -903,9 +904,6 @@ letter-spacing: 0.04em;
 }
 
 
-.footer-block-form {
-    display: flex;
-    gap: 24px;
 }
 
 .footer-input-email {
