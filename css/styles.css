@@ -787,7 +787,7 @@ margin-bottom: 4px;
 }
 
 .modal-field {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     position: relative;
 }
 .modal-field-icon {
@@ -856,6 +856,12 @@ letter-spacing: 0.04em;
 background-color:#404BBF;
 border: none;
 fill: var(--cloud-color);
+}
+
+.input-checkbox:checked + .span {
+    background-color:#404BBF;
+    border: none;
+    fill: var(--cloud-color); 
 }
 
 .input-checkbox:focus + .modal-check-icon .modal-check-icon {
