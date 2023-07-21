@@ -858,7 +858,7 @@ letter-spacing: 0.04em;
     fill: transparent;
 }
 
-.input-checkbox :checked + .modal-check-icon +.modal-check-icon {
+.input-checkbox:checked + .modal-check-icon {
 background-color:#404BBF;
 border: none;
 fill: var(--cloud-color);
