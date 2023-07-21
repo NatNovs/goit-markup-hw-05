@@ -791,6 +791,11 @@ margin-bottom: 4px;
     margin-bottom: 8px;
 }
 
+.modal-field-comm {
+    position: relative;
+    margin-bottom: 16px;
+}
+
 .modal-field-icon {
     position: absolute;
     left: 16px;
