@@ -858,15 +858,19 @@ letter-spacing: 0.04em;
     fill: transparent;
 }
 
-.input-checkbox:checked + .modal-check-icon {
+.user-check-text:checked + .modal-check-icon {
 background-color:#404BBF;
 border: none;
 fill: var(--cloud-color);
 }
 
+.user-check-text:hover + .modal-check-icon {
+    background-color: var(--pressed-state-ocean);
+    border: none;
+    fill: #F4F4FD;
+    }
 
-
-.input-checkbox:focus + .modal-check-icon .modal-check-icon {
+.user-check-text:focus + .modal-check-icon {
     background-color: var(--pressed-state-ocean);
     border: none;
     fill: #F4F4FD;
@@ -964,4 +968,8 @@ letter-spacing: 0.04em;
     .footer-icon-send {
     fill: var(--primary-white);
     margin-left: 16px;
+    }
+
+    .footer-input-email::placeholder {
+    color: #ffffff;
     }
