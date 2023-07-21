@@ -845,7 +845,7 @@ letter-spacing: 0.04em;
     letter-spacing: 0.04em;
     }
 
-.modal-check-icon {
+.chek-icon {
     display: inline-flex;
     width: 16px;
     height: 16px;
@@ -858,7 +858,7 @@ letter-spacing: 0.04em;
     fill: transparent;
 }
 
-.user-check-text:checked + .modal-check-icon {
+.input-checkbox:checked + .user-check-text span  {
 background-color:#404BBF;
 border: none;
 fill: var(--cloud-color);
