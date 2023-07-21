@@ -787,9 +787,10 @@ margin-bottom: 4px;
 }
 
 .modal-field {
-    margin-bottom: 8px;
     position: relative;
+    margin-bottom: 8px;
 }
+
 .modal-field-icon {
     position: absolute;
     left: 16px;
@@ -852,17 +853,13 @@ letter-spacing: 0.04em;
     fill: transparent;
 }
 
-.input-checkbox:checked + .modal-check-icon .modal-check-icon {
+.input-checkbox :checked + .modal-check-icon +.modal-check-icon {
 background-color:#404BBF;
 border: none;
 fill: var(--cloud-color);
 }
 
-.input-checkbox:checked + .span {
-    background-color:#404BBF;
-    border: none;
-    fill: var(--cloud-color); 
-}
+
 
 .input-checkbox:focus + .modal-check-icon .modal-check-icon {
     background-color: var(--pressed-state-ocean);
