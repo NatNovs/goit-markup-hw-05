@@ -839,6 +839,7 @@ letter-spacing: 0.04em;
 }
 
 .modal-span {
+    display: inline-flex;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -847,7 +848,6 @@ letter-spacing: 0.04em;
     align-items: center;
     justify-content: center;
     fill: transparent;
-    display: inline-flex; 
     margin-right: 8px;
 }
 
