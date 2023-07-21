@@ -847,6 +847,8 @@ letter-spacing: 0.04em;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    display: inline-flex; 
+    margin-right: 8px;
 }
 
 .privacy-policy {
