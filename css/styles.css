@@ -950,7 +950,6 @@ letter-spacing: 0.04em;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     border-radius: 4px;
     background-color: var(--primary-brand-iris, #4D5AE5);
     margin: 0 auto;
@@ -970,6 +969,7 @@ letter-spacing: 0.04em;
 
     .footer-icon-send {
     fill: var(--primary-white);
+    margin-left: 16px;
     }
 
     .footer-input-email::placeholder {
